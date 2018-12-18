@@ -168,7 +168,6 @@
   /**
    * Software serial
    */
-
   #define X_SERIAL_TX_PIN    40
   #define X_SERIAL_RX_PIN    63
   #define X2_SERIAL_TX_PIN   -1
@@ -186,8 +185,8 @@
 
   #define E0_SERIAL_TX_PIN   44
   #define E0_SERIAL_RX_PIN   66
-  #define E1_SERIAL_TX_PIN   -1
-  #define E1_SERIAL_RX_PIN   -1
+  #define E1_SERIAL_TX_PIN   58
+  #define E1_SERIAL_RX_PIN   57
   #define E2_SERIAL_TX_PIN   -1
   #define E2_SERIAL_RX_PIN   -1
   #define E3_SERIAL_TX_PIN   -1
@@ -322,15 +321,15 @@
 //
 // Průša i3 MK2 Multiplexer Support
 //
-#ifndef E_MUX0_PIN
-  #define E_MUX0_PIN 40   // Z_CS_PIN
-#endif
-#ifndef E_MUX1_PIN
-  #define E_MUX1_PIN 42   // E0_CS_PIN
-#endif
-#ifndef E_MUX2_PIN
-  #define E_MUX2_PIN 44   // E1_CS_PIN
-#endif
+// #ifndef E_MUX0_PIN
+//   #define E_MUX0_PIN 40   // Z_CS_PIN
+// #endif
+// #ifndef E_MUX1_PIN
+//   #define E_MUX1_PIN 42   // E0_CS_PIN
+// #endif
+// #ifndef E_MUX2_PIN
+//   #define E_MUX2_PIN 44   // E1_CS_PIN
+// #endif
 
 //////////////////////////
 // LCDs and Controllers //
